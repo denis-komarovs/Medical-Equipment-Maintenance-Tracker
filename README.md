@@ -1,7 +1,7 @@
 # Medical Equipment Maintenance Tracker
 
 ## Overview
-**Medical Equipment Maintenance Tracker (MEMT)** is a web-based system for hospitals and clinics to manage:
+**Medical Equipment Maintenance Tracker** is a web-based system for hospitals and clinics to manage:
 - Medical equipment inventory
 - Scheduled maintenance
 - Fault reporting and resolution
@@ -14,12 +14,12 @@
 - **Frontend Development (Vue.js)**: Built dynamic, responsive front-end components using Vue.js.
 - **API Creation**: Developed RESTful APIs to enable external systems and mobile apps to interact with the data.
 - **UI/UX Design Principles**: Created a clean UI & UX experience.
-- **Testing & Debugging**: Wrote automated PHPUnit tests and performed manual testing. Due to time constraints this hasnt been done properly
-- **Version Control (Git)**: Used Git for version control with feature branches, clear commit messages, and organized project management.
+- **Testing & Debugging**: Wrote automated PHPUnit tests and performed manual testing. Due to time constraints, this hasn't been done properly
+- **Version Control (Git)**: Used Git for version control with feature branches, clear commit messages, and organised project management.
 - **Kanban/Agile Workflows**: Planned and managed project tasks using a Kanban board to simulate an Agile workflow.
 - **Best Practice Coding Standards**: Followed PSR-12 coding standards and wrote clean, maintainable code.
-- **Problem-Solving & Critical Thinking**: Analyzed project requirements and solved technical challenges like overdue maintenance tracking and role-based permissions.
-- **Collaboration & Communication**: although I worked solo for this project I simulated teamwork qualities by writing clear documentation, reviewing code & having good project organisation
+- **Problem-Solving & Critical Thinking**: Analysed project requirements and solved technical challenges like overdue maintenance tracking and role-based permissions.
+- **Collaboration & Communication**: although I worked solo for this project, I simulated teamwork qualities by writing clear documentation, reviewing code & having good project organisation
 
 ---
 
@@ -115,12 +115,13 @@
 ## API Endpoints
 
 | Method | Endpoint | Description |
+|:---|:---|:---|
 | `GET` | `/api/devices` | List all equipment |
 | `POST` | `/api/maintenance-logs` | Create a maintenance log |
 | `GET` | `/api/vendors` | List vendors |
 | `POST` | `/api/faults` | Report a new fault |
 
-Full API documentation available at `/api/documentation` (or a Postman collection in future).
+Full API documentation is available at `/api/documentation` (or a Postman collection in the future).
 
 ---
 
@@ -165,7 +166,7 @@ Open-source for learning purposes.
 
 # Final Notes
 
-> This project simulates the type of CRM, ERP, and database-driven solutions used by healthcare organizations and industry sectors.  
+> This project simulates the type of CRM, ERP, and database-driven solutions used by healthcare organisations and industry sectors.  
 
 ---
 
